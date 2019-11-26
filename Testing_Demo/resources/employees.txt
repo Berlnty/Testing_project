@@ -1,0 +1,3 @@
+employee1 3000
+employee2 5000
+employee3 1400

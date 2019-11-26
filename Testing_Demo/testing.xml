@@ -1,0 +1,25 @@
+?xml version="1.0" encoding="UTF-8"?>
+<suite>
+ 
+<suite name="Groups">
+ <test name="testngTest">
+ 
+ <groups>
+ 
+  <define name="all">
+ <include name="basic" />   <!-- <exclude    name="reward" > -->
+ <include name="reward" />
+ <include  name="penality"/>
+ </define>
+ 
+ <!--
+ <run>
+  <include name="all" />
+ </run>
+ -->
+ 
+ </groups>
+ <class   name="Groups.Employees"/>
+ <class   name="Groups.Employee"/>
+ </test>
+</suite>
